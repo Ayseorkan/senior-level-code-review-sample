@@ -54,7 +54,7 @@ Key test cases include:
 - This function calculates the average order value by summing the amounts of all non-cancelled orders and dividing by the number of valid, non-cancelled orders. It safely ignores cancelled orders and invalid amount values, and returns 0.0 if there are no valid orders.
 
 ## 4) Final Judgment
-- Decision: Rejects
+- Decision: Reject
 - Justification: The core business logic produces incorrect averages and may raise runtime errors. The implementation cannot be approved in its current state.
 - Confidence & unknowns: High confidence. Return-value semantics may depend on requirements.
 
