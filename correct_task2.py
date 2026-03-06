@@ -1,3 +1,6 @@
+# Write your corrected implementation for Task 2 here.
+# Do not modify `task2.py`.
+
 import re
 
 EMAIL_REGEX = re.compile(r"^[^@\s]+@[^@\s]+\.[^@\s]+$")

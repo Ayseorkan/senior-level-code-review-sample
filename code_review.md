@@ -1,11 +1,5 @@
 # AI Code Review Assignment (Python)
 
-## Candidate
-- Name: Ayşe Orkan
-- Approximate time spent: 90
-
----
-
 # Task 1 — Average Order Value
 
 ## 1) Code Review Findings
@@ -33,7 +27,8 @@ See `correct_task1.py`
 
 > Note: The original AI-generated code is preserved in `task1.py`.
 
- ### Testing Considerations
+### Testing Considerations
+<!-- If you were to test this function, what areas or scenarios would you focus on, and why? -->
 Key test cases include:
 - A mix of cancelled and non-cancelled orders 
 - All orders cancelled 
