@@ -1,4 +1,4 @@
-# Senior-Level Code Review & Rafactoring Examples
+# Senior-Level Code Review & Refactoring Examples
 
 This repository demonstrates **senior-level code review practices** using simple Python utility functions. 
 
