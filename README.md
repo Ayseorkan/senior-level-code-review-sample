@@ -13,8 +13,9 @@ The goal of this repository is to provide a **learning reference** for:
   - `calculate_average_order_value`
   - `count_valid_emails`
   - `average_valid_measurements`
-- Production-ready senior-level code reviews (`CODE_REVIEW.md`)
--  Production-ready additional context and considerations for reviewers (`NOTES.md`)
+- Production-quality code reviews (`CODE_REVIEW.md`)
+- Industry-standard additional context and considerations for reviewers (`NOTES.md`)
+- Demo/educational code review examples (CODE_REVIEW_DEMO.md, NOTES_DEMO.md)
 
 ## How to Use
 1. Examine the functions to understand the code.
