@@ -1,4 +1,5 @@
 def calculate_average_order_value(orders):
+    
     total = 0
     count = len(orders)
 

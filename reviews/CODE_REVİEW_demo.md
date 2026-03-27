@@ -1,6 +1,6 @@
-# AI Code Review Assignment (Python)
+# Senior-Level Code Review — Python Utility Functions
 
-# Task 1 — Average Order Value
+## Function: calculate_average_order_value
 
 ## 1) Code Review Findings
 ### Critical bugs
@@ -23,12 +23,11 @@
 - Prevent division by zero by explicitly checking the valid order count.
 
 ### Corrected code
-See `correct_task1.py`
+See `average_order_value.py`
 
-> Note: The original AI-generated code is preserved in `task1.py`.
+> Note: The original AI-generated code is preserved in `average_order_value_buggy.py`.
 
 ### Testing Considerations
-<!-- If you were to test this function, what areas or scenarios would you focus on, and why? -->
 Key test cases include:
 - A mix of cancelled and non-cancelled orders 
 - All orders cancelled 
@@ -37,7 +36,7 @@ Key test cases include:
 
 
 ## 3) Explanation Review & Rewrite
-### AI-generated explanation (original)
+### Original explanation 
 > This function calculates average order value by summing the amounts of all non-cancelled orders and dividing by the number of orders. It correctly excludes cancelled orders from the calculation.
 
 ### Issues in original explanation
@@ -55,7 +54,7 @@ Key test cases include:
 
 ---
 
-# Task 2 — Count Valid Emails
+## Function: count_valid_emails
 
 ## 1) Code Review Findings
 ### Critical bugs
@@ -79,9 +78,9 @@ Key test cases include:
 
 
 ### Corrected code
-See `correct_task2.py`
+See `count_valid_emails.py`
 
-> Note: The original AI-generated code is preserved in `task2.py`. 
+> Note: The original AI-generated code is preserved in `count_valid_emails_buggy.py`. 
 
 
 ### Testing Considerations
@@ -92,7 +91,7 @@ Key test cases include:
 - Edge cases like multiple @ symbols or missing domain parts.
 
 ## 3) Explanation Review & Rewrite
-### AI-generated explanation (original)
+### Original explanation
 > This function counts the number of valid email addresses in the input list. It safely ignores invalid entries and handles empty input correctly.
 
 ### Issues in original explanation
@@ -110,7 +109,7 @@ Key test cases include:
 
 ---
 
-# Task 3 — Aggregate Valid Measurements
+## Function: average_valid_measurements
 
 ## 1) Code Review Findings
 ### Critical bugs
@@ -134,9 +133,9 @@ Key test cases include:
 - Prevent division by zero by returning 0.0 when no valid measurements exist.
 
 ### Corrected code
-See `correct_task3.py`
+See `average_measurements.py`
 
-> Note: The original AI-generated code is preserved in `task3.py`.
+> Note: The original AI-generated code is preserved in `average_measurements_buggy.py`.
 
 ### Testing Considerations
 Key test cases include:
@@ -145,7 +144,7 @@ Key test cases include:
 - Empty input lists.
 
 ## 3) Explanation Review & Rewrite
-### AI-generated explanation (original)
+### Original explanation
 > This function calculates the average of valid measurements by ignoring missing values and averaging the remaining values. It safely handles mixed input types and ensures an accurate average
 
 ### Issues in original explanation
