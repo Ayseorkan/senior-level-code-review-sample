@@ -21,4 +21,8 @@ The goal of this repository is to provide a **learning reference** for:
 1. Examine the functions to understand the code.
 2. Read the code reviews to see how a senior developer evaluates code.
 3. Use the notes to understand rationale behind recommendations and limitations.
+<<<<<<< HEAD
 4. Review demo files only for learning purposes; they are not production-ready.
+=======
+4. Review demo files only for learning purposes; they are not production-ready.
+>>>>>>> 3ab2c7fdb6495407364e3fb30f0f95a06346b3e1
