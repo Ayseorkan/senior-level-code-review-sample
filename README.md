@@ -15,11 +15,10 @@ The goal of this repository is to provide a **learning reference** for:
   - `average_valid_measurements`
 - Production-quality code reviews (`CODE_REVIEW.md`)
 - Industry-standard additional context and considerations for reviewers (`NOTES.md`)
-- Demo/educational code review examples (CODE_REVIEW_DEMO.md, NOTES_DEMO.md)
+- Demo/educational code review examples (`CODE_REVIEW_DEMO.md`, `NOTES_DEMO.md`)
 
 ## How to Use
 1. Examine the functions to understand the code.
 2. Read the code reviews to see how a senior developer evaluates code.
 3. Use the notes to understand rationale behind recommendations and limitations.
-
-This repo is meant for **learning and demonstration purposes** and is not intended for production use.
+4. Review demo files only for learning purposes; they are not production-ready.
